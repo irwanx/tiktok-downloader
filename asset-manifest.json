@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tiktok-downloader/static/css/main.2176dad7.css",
+    "main.js": "/tiktok-downloader/static/js/main.92469a73.js",
+    "index.html": "/tiktok-downloader/index.html",
+    "main.2176dad7.css.map": "/tiktok-downloader/static/css/main.2176dad7.css.map",
+    "main.92469a73.js.map": "/tiktok-downloader/static/js/main.92469a73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2176dad7.css",
+    "static/js/main.92469a73.js"
+  ]
+}
