@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import AlertModal from './AlertModal';
-import VideoInfoModal from './VideoInfoModal';
-import CaptchaModal from './CaptchaModal';
-import { validateLink, downloadFile } from '../utils/LinkUtils';
+import AlertModal from './AlertModal.jsx';
+import VideoInfoModal from './VideoInfoModal.jsx';
+import CaptchaModal from './CaptchaModal.jsx';
+import { validateLink, downloadFile } from '../utils/LinkUtils.jsx';
 import axios from 'axios';
 
 function LinkForm() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import LinkForm from './components/LinkForm';
+import LinkForm from './components/LinkForm.jsx';
 
 function App() {
   return (
