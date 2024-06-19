@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AlertModal from './AlertModal.jsx';
 import VideoInfoModal from './VideoInfoModal.jsx';
 import CaptchaModal from './CaptchaModal.jsx';
-import { validateLink, downloadFile } from '../utils/LinkUtils.jsx';
+import { validateLink, downloadFile } from '../utils/LinkUtils.js';
 import axios from 'axios';
 
 function LinkForm() {
@@ -37,7 +37,7 @@ function LinkForm() {
             setLoading(true);
 
             try {
-                const response = await axios.get(`https://api.irwanx.my.id/api/tiktok`, {
+                const response = await axios.get(`https://tk-down-app.vercel.app/api/tiktok`, {
                     params: { url: encodeURIComponent(link) }
                 });
                 const { code, msg, data } = response.data;
